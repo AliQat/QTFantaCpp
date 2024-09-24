@@ -43,6 +43,7 @@ int main(int argc, char *argv[])
     deck.shuffle();
     std::cout << "size of deck is: " << deck.getCardDeckSize() << std::endl;
     deck.initialDrawCard(playerHand);
+    std::cout << "size of deck is: " << deck.getCardDeckSize() << std::endl;
     for (const std::vector<std::unique_ptr<Card>>& cardsInPlayerHand = playerHand.getCardsInHand(); const auto& card : cardsInPlayerHand) {
         if(!card) { break;}
         if(card->getName().empty()) {break;}
@@ -57,18 +58,18 @@ int main(int argc, char *argv[])
         } else if (auto* spellCard = dynamic_cast<SpellCard*>(card.get())) {
             std::cout << "SpellCard - No additional attributes" << std::endl;
         }
-        for(int i = 0; i < 1; i++) {
+        for(int i = 0; i < 900; i++) {
             deck.drawCard(playerHand);
         }
         // Create a temporary card on the stack and search for it
-        SpellCard searchCard("Haunted burning library", "Spell", "Buff the attack of all WarmGhost Monster by 2 and DeBuff their defense by 1", 1);
+        MonsterCard searchCard("WarmGhost Whiz-Kidz", "Monster", "Ward. If your opponent controls more monsters than you then you can summon this card for free", 5, 3, 3);
         if (deck.searchCard(searchCard)) {
             std::cout << "Card Found! " << searchCard.getName() << std::endl;
         } else {
             std::cout << "Card Not Found!" << std::endl;
         }
     }
-
+    // my name is mister frog
     std::cout << "size of deck is: " << deck.getCardDeckSize() << std::endl;
     return a.exec();
 }
