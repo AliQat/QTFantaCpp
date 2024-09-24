@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
         } else if (auto* spellCard = dynamic_cast<SpellCard*>(card.get())) {
             std::cout << "SpellCard - No additional attributes" << std::endl;
         }
-        for(int i = 0; i < 900; i++) {
+        for(int i = 0; i < 20; i++) {
             deck.drawCard(playerHand);
         }
         // Create a temporary card on the stack and search for it

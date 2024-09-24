@@ -31,6 +31,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         SpellCard.h SpellCard.cpp
         TurnManager.h TurnManager.cpp
         Card.h
+        Card.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET attempt3 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
