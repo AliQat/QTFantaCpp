@@ -1,0 +1,108 @@
+[
+  {
+    "CardName": "Haunted burning library",
+    "CardType": "Spell",
+    "CardEffect": "Buff the attack of all WarmGhost Monster by 2 and DeBuff their defense by 1",
+    "CardCost": 1
+  },
+  {
+    "CardName": "WarmGhost school festival",
+    "CardType": "Spell",
+    "CardEffect": "Add 2 spells from your deck to your hand and play them immediately and end your turn",
+    "CardCost": 8
+  },
+  {
+  "CardName": "Wispy ink drip",
+  "CardType": "Spell",
+  "CardEffect": "Scratch a spell card on the field",
+  "CardCost": 0
+  },
+  {
+    "CardName": "First in class",
+    "CardType": "Spell",
+    "CardEffect": "Gain Marbles equal to the amount that your opponent expended in the turn before yours",
+    "CardCost": 4
+  },
+  {
+    "CardName": "WarmGhost Lunch Trade",
+    "CardType": "Spell",
+    "CardEffect": "look at your opponents hand, choose 1 card and add it to your hand and take 1 card from your hand and add them",
+    "CardCost": 2
+  },
+  {
+    "CardName": "WarmGhost mistake!!!!!",
+    "CardType": "Spell",
+    "CardEffect": "Shuffle your hand into the deck, draw 3 cards",
+    "CardCost": 0
+  },
+  {
+    "CardName": "WarmGhost Graveyard",
+    "CardType": "Spell",
+    "CardEffect": "Put a scratched card from your scratch pile into your field",
+    "CardCost": 5
+  },
+  {
+    "CardName": "WarmGhost Necromantic",
+    "CardType": "Monster",
+    "CardEffect": "Make your opponent and you have the same health (your choice of who's health, yours or theirs)",
+    "CardCost": 4,
+    "Health": 2,
+    "Attack": 1
+  },
+  {
+    "CardName": "WarmGhost Paper-Kut-Dragun",
+    "CardType": "Monster",
+    "CardEffect": "Deal damage to yourself and opponent equal to the number of cards on the field.",
+    "CardCost": 2,
+    "Health": 2,
+    "Attack": 1
+  },
+  {
+    "CardName": "WarmGhost Undead Lost Librarian",
+    "CardType": "Monster",
+    "CardEffect": "Airhead. You can summon this card from your hand for free if you have 2 janitors on your side of the field",
+    "CardCost": 7,
+    "Health": 4,
+    "Attack": 4
+  },
+  {
+    "CardName": "WarmGhost Quiet Janitor",
+    "CardType": "Monster",
+    "CardEffect": "If Wispy Ink Drip, After School Garden Games, or Big Stomp -- OOPS!!! get played while this card is in your hand, summon this card and another copy of it from your scratch pile or deck",
+    "CardCost": 7,
+    "Health": 5,
+    "Attack": 4
+  },
+  {
+    "CardName": "WarmGhost Endless Library",
+    "CardType": "Monster",
+    "CardEffect": "Ward. Everytime a card is played by either player expend 1 marble from your opponent",
+    "CardCost": 9,
+    "Health": 10,
+    "Attack": 10
+  },
+  {
+    "CardName": "WarmGhost Whiz-Kidz",
+    "CardType": "Monster",
+    "CardEffect": "Ward. If your opponent controls more monsters than you then you can summon this card for free",
+    "CardCost": 5,
+    "Health": 3,
+    "Attack": 3
+  },
+  {
+    "CardName": "WarmGhost Papergeist",
+    "CardType": "Monster",
+    "CardEffect": "Ethereal. You can add 1 Undead Lost Librarian to your hand",
+    "CardCost": 7,
+    "Health": 7,
+    "Attack": 6
+  },
+  {
+    "CardName": "WarmGhost Paper-Kut-Kidz",
+    "CardType": "Monster",
+    "CardEffect": "You can summon this card for free if you have Paper-Kut-Dragon and Paper-Kut-Kidz on the field. However, if summoned for free then flip a coin during the draw phase, if it's heads then you get a paper cut and cannot draw.",
+    "CardCost": 6,
+    "Health": 6,
+    "Attack": 6
+  }
+]
