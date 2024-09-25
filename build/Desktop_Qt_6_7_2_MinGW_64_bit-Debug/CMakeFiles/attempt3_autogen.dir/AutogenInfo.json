@@ -382,6 +382,7 @@
 	"SETTINGS_FILE" : "C:/Users/Ali/Documents/attempt3/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/attempt3_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/Users/Ali/Documents/attempt3/Card.cpp", "MU", null ],
 		[ "C:/Users/Ali/Documents/attempt3/CoinFlip.cpp", "MU", null ],
 		[ "C:/Users/Ali/Documents/attempt3/DeckManager.cpp", "MU", null ],
 		[ "C:/Users/Ali/Documents/attempt3/HandManager.cpp", "MU", null ],

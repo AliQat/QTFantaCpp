@@ -129,6 +129,14 @@ build CMakeFiles/attempt3.dir/TurnManager.cpp.obj: CXX_COMPILER__attempt3_unscan
   OBJECT_DIR = CMakeFiles\attempt3.dir
   OBJECT_FILE_DIR = CMakeFiles\attempt3.dir
 
+build CMakeFiles/attempt3.dir/Card.cpp.obj: CXX_COMPILER__attempt3_unscanned_Debug C$:/Users/Ali/Documents/attempt3/Card.cpp || cmake_object_order_depends_target_attempt3
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\attempt3.dir\Card.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Ali/Documents/attempt3/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/attempt3_autogen/include -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\attempt3.dir
+  OBJECT_FILE_DIR = CMakeFiles\attempt3.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target attempt3
@@ -137,7 +145,7 @@ build CMakeFiles/attempt3.dir/TurnManager.cpp.obj: CXX_COMPILER__attempt3_unscan
 #############################################
 # Link the executable attempt3.exe
 
-build attempt3.exe: CXX_EXECUTABLE_LINKER__attempt3_Debug CMakeFiles/attempt3.dir/attempt3_autogen/mocs_compilation.cpp.obj CMakeFiles/attempt3.dir/main.cpp.obj CMakeFiles/attempt3.dir/mainwindow.cpp.obj CMakeFiles/attempt3.dir/CoinFlip.cpp.obj CMakeFiles/attempt3.dir/DeckManager.cpp.obj CMakeFiles/attempt3.dir/HandManager.cpp.obj CMakeFiles/attempt3.dir/MonsterCard.cpp.obj CMakeFiles/attempt3.dir/PhaseManager.cpp.obj CMakeFiles/attempt3.dir/SpellCard.cpp.obj CMakeFiles/attempt3.dir/TurnManager.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || attempt3_autogen attempt3_autogen_timestamp_deps
+build attempt3.exe: CXX_EXECUTABLE_LINKER__attempt3_Debug CMakeFiles/attempt3.dir/attempt3_autogen/mocs_compilation.cpp.obj CMakeFiles/attempt3.dir/main.cpp.obj CMakeFiles/attempt3.dir/mainwindow.cpp.obj CMakeFiles/attempt3.dir/CoinFlip.cpp.obj CMakeFiles/attempt3.dir/DeckManager.cpp.obj CMakeFiles/attempt3.dir/HandManager.cpp.obj CMakeFiles/attempt3.dir/MonsterCard.cpp.obj CMakeFiles/attempt3.dir/PhaseManager.cpp.obj CMakeFiles/attempt3.dir/SpellCard.cpp.obj CMakeFiles/attempt3.dir/TurnManager.cpp.obj CMakeFiles/attempt3.dir/Card.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a || attempt3_autogen attempt3_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

@@ -395,3 +395,4 @@ C:/Users/Ali/Documents/attempt3/TurnManager.cpp
 C:/Users/Ali/Documents/attempt3/main.cpp
 C:/Users/Ali/Documents/attempt3/mainwindow.cpp
  uic:./ui_mainwindow.h
+C:/Users/Ali/Documents/attempt3/Card.cpp
